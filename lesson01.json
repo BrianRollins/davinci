@@ -1,0 +1,71 @@
+{
+	"lesson": {
+		"lessonTitle": "Da Vinci on Da Vinci",
+		"lessonID": "00001",
+		"lessonSummary": "This is a first, basic lesson to demonstrate the code's potential. Click the play button below to start the lesson.",		
+		"pages": [{ 
+				"pageTitle": "Introduction",
+				"pageType": "slideshow",
+				"pageId": "page0101",
+				"pageSummary": "This is the first page in the lesson. Heed its words carefully. It uses the 'slideshow' page type.",
+				"pageTags":["first","slideshow","demo"],
+				"pageMedia":[
+					{"title":"Meet Leonardo Da Vinci",
+					"image":"page01/page01-01.jpg",
+					"audio":"music/Gymnopedie3",
+					"cc":"page01/page01-01.txt"},
+					{"title":"Visionary Designer",
+					"image":"page01/page01-02.jpg",
+					"audio":"music/Relent",
+					"cc":"page01/page01-02.txt"},
+					{"title":"Man of War and Peace",
+					"image":"page01/page01-03.jpg",
+					"audio":"music/Virtutes_Instrumenti",
+					"cc":"page01/page01-03.txt"}
+				]
+			},{
+				"pageTitle": "His Art",
+				"pageType": "slideshow",
+				"pageId": "page0102",
+				"pageSummary": "This is the second page. You're probably less interested in it now, right? This uses the 'Tri-Fold-H' (Horizontal) page type.",
+				"pageTags":["second","triangle","demo"],
+				"pageMedia":[{
+					"title":"The Mona Lisa",
+					"image": "page02/page02-01.jpg",
+					"audio": "music/Virtutes_Vocis",
+					"cc": "page02/page02-01.txt"
+					},{
+					"title":"The Vitruvian Man",
+					"image": "page02/page02-02.jpg",
+					"audio": "music/Gymnopedie3",
+					"cc":"page02/page02-02.txt"
+					},{
+					"title":"Some Other Artwork",
+					"image":"page02/page02-03.jpg",
+					"audio":"music/Virtutes_Instrumenti",
+					"cc":"page02/page02-03.txt"}
+				]
+			},{ 
+				"pageTitle":"Legacy",
+				"pageType":"quad",
+				"pageId": "page0103",
+				"pageSummary":"This is the third page. This uses the 'Quad' page type.",
+				"pageTags":["third","quad","demo"],
+				"pageMedia":[
+					{"title":"Statue of Leonardo Da Vinci",
+					"image":"page03/page03-01.jpg",
+					"audio":"music/Relent",
+					"cc":"page03/page03-01.txt"},
+					{"title":"Lady with an Ermine",
+					"image":"page03/page03-02.jpg",
+					"audio":"music/Gymnopedie3",
+					"cc":"page03/page03-02.txt"},
+					{"title":"The Battle of Anghiari",
+					"image":"page03/page03-03.jpg",
+					"audio":"music/Virtutes_Vocis",
+					"cc":"page03/page03-03.txt"}
+				]
+			}
+		]
+	}
+}
